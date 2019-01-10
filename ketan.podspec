@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ketan"
-  s.version      = "1.0.2"
+  s.version      = "1.0.5"
   s.summary      = "A short description."
 
   # This description is used to generate tags and improve search results.
@@ -93,7 +93,19 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "MySDK"
-  s.exclude_files = "Classes"
+  s.exclude_files = "Classes/Exclude"
+  s.vendored_frameworks = 'MySDK/DigiAdz.framework'
 
+ # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  #
+  #  If your library depends on compiler flags you can set them in the xcconfig hash
+  #  where they will only apply to your library. If you depend on other Podspecs
+  #  you can include multiple dependencies to ensure it works.
+
+  # s.requires_arc = true
+
+    s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/Headers/DigiAdz.h" }
+  #  s.dependency "UnityAds"
+   # s.dependency "AdColony"
 
 end
