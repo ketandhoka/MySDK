@@ -1,0 +1,9 @@
+module DigiAdzPrivate {
+    export AdColony
+    export GoogleMobileAds
+    export InMobiSDK
+    export VungleSDK
+    export AppTracker
+    export UnityAds
+    export Fyber
+}

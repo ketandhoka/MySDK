@@ -1,0 +1,11 @@
+framework module DigiAdz {
+  umbrella header "DigiAdz.h"
+
+  export *
+  module * { export * }
+}
+
+module DigiAdz.Swift {
+    header "DigiAdz-Swift.h"
+    requires objc
+}
