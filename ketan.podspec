@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "MySDK"
+  s.source_files  = "DigiAdz"
   s.exclude_files = "Classes/Exclude"
   s.vendored_frameworks = 'DigiAdz/DigiAdz.framework'
 
