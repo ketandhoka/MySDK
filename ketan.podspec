@@ -94,7 +94,7 @@ Pod::Spec.new do |s|
 
   s.source_files  = "MySDK"
   s.exclude_files = "Classes/Exclude"
-  s.vendored_frameworks = 'MySDK/DigiAdz.framework'
+  s.vendored_frameworks = 'DigiAdz/DigiAdz.framework'
 
  # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
