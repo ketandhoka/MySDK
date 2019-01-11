@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ketan"
-  s.version      = "1.0.18"
+  s.version      = "1.0.19"
   s.summary      = "A short description."
 
   # This description is used to generate tags and improve search results.
@@ -94,8 +94,8 @@ Pod::Spec.new do |s|
 
   s.source_files  = "DigiAdz","AppTracker"
   s.exclude_files = "Classes/Exclude"
-  s.vendored_frameworks = 'DigiAdz/DigiAdz.framework'
-  s.vendored_frameworks = 'AppTracker/AppTracker.framework'
+  s.vendored_frameworks = 'DigiAdz/DigiAdz.framework','AppTracker/AppTracker.framework'
+
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
