@@ -106,7 +106,8 @@ Pod::Spec.new do |s|
    s.static_framework = true
 
     s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/Headers/DigiAdz.h" }
-   s.dependency "AdColony"
+
+    s.dependency "AdColony"
     s.dependency "Google-Mobile-Ads-SDK"
     s.dependency 'AppLovinSDK'
     s.dependency "ChartboostSDK"
@@ -116,8 +117,5 @@ Pod::Spec.new do |s|
     s.dependency "IronSourceSDK"
     s.dependency "UnityAds"
     s.dependency "VungleSDK-iOS"
-
-    #HyperMX to add
-    # Leadbolt(AppTraker Framework)pod not available
 
 end
