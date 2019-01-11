@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ketan"
-  s.version      = "1.0.13"
+  s.version      = "1.0.15"
   s.summary      = "A short description."
 
   # This description is used to generate tags and improve search results.
@@ -106,7 +106,6 @@ Pod::Spec.new do |s|
    s.static_framework = true
 
     s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/Headers/DigiAdz.h" }
-    s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/FyberSDK/FyberSDK.h" }
     s.dependency "AdColony"
     s.dependency "Google-Mobile-Ads-SDK"
     s.dependency 'AppLovinSDK'
