@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ketan"
-  s.version      = "1.0.2"
+  s.version      = "1.0.12"
   s.summary      = "A short description."
 
   # This description is used to generate tags and improve search results.
@@ -92,8 +92,23 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "MySDK"
-  s.exclude_files = "Classes"
+  s.source_files  = "DigiAdz"
+  s.exclude_files = "Classes/Exclude"
+  s.vendored_frameworks = 'DigiAdz/DigiAdz.framework'
 
+ # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  #
+  #  If your library depends on compiler flags you can set them in the xcconfig hash
+  #  where they will only apply to your library. If you depend on other Podspecs
+  #  you can include multiple dependencies to ensure it works.
+
+  # s.requires_arc = true
+   s.static_framework = true
+
+    s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/Headers/DigiAdz.h" }
+    s.dependency "InMobiSDK"
+    s.dependency "Google-Mobile-Ads-SDK"
+  # s.dependency "UnityAds"
+   s.dependency "AdColony"
 
 end
