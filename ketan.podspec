@@ -96,7 +96,7 @@ Pod::Spec.new do |s|
   s.exclude_files = "Classes/Exclude"
   s.vendored_frameworks = 'DigiAdz/DigiAdz.framework'
 
- # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  If your library depends on compiler flags you can set them in the xcconfig hash
   #  where they will only apply to your library. If you depend on other Podspecs
@@ -106,9 +106,18 @@ Pod::Spec.new do |s|
    s.static_framework = true
 
     s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/Headers/DigiAdz.h" }
-    s.dependency "InMobiSDK"
-    s.dependency "Google-Mobile-Ads-SDK"
-  # s.dependency "UnityAds"
    s.dependency "AdColony"
+    s.dependency "Google-Mobile-Ads-SDK"
+    s.dependency 'AppLovinSDK'
+    s.dependency "ChartboostSDK"
+    s.dependency 'FBAudienceNetwork'
+    s.dependency  "FyberSDK"
+    s.dependency "InMobiSDK"
+    s.dependency "IronSourceSDK"
+    s.dependency "UnityAds"
+    s.dependency "VungleSDK-iOS"
+
+    #HyperMX to add
+    # Leadbolt(AppTraker Framework)pod not available
 
 end
