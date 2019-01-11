@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ketan"
-  s.version      = "1.0.20"
+  s.version      = "1.0.21"
   s.summary      = "A short description."
 
   # This description is used to generate tags and improve search results.
@@ -94,7 +94,7 @@ Pod::Spec.new do |s|
 
   s.source_files  = "DigiAdz","AppTracker","HyprMX","IronSourceSDK"
   s.exclude_files = "Classes/Exclude"
-  s.vendored_frameworks = 'DigiAdz/DigiAdz.framework','AppTracker/AppTracker.framework','HyprMX/HyprMX.framework','IronSource/IronSource.framework'
+  s.vendored_frameworks = 'DigiAdz/DigiAdz.framework','AppTracker/AppTracker.framework','HyprMX/HyprMX.framework','IronSourceSDK/IronSource.framework'
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -114,7 +114,7 @@ Pod::Spec.new do |s|
     s.dependency 'FBAudienceNetwork'
     s.dependency  "FyberSDK"
     s.dependency "InMobiSDK"
-    s.dependency "IronSourceSDK"
+    #s.dependency "IronSourceSDK"
     s.dependency "UnityAds"
     s.dependency "VungleSDK-iOS"
 
