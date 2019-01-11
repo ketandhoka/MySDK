@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ketan"
-  s.version      = "1.0.11"
+  s.version      = "1.0.12"
   s.summary      = "A short description."
 
   # This description is used to generate tags and improve search results.
@@ -103,9 +103,12 @@ Pod::Spec.new do |s|
   #  you can include multiple dependencies to ensure it works.
 
   # s.requires_arc = true
+   s.static_framework = true
 
     s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/Headers/DigiAdz.h" }
-  #  s.dependency "UnityAds"
-   # s.dependency "AdColony"
+    s.dependency "InMobiSDK"
+    s.dependency "Google-Mobile-Ads-SDK"
+  # s.dependency "UnityAds"
+   s.dependency "AdColony"
 
 end
