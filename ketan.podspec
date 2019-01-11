@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ketan"
-  s.version      = "1.0.23"
+  s.version      = "1.0.24"
   s.summary      = "A short description."
 
   # This description is used to generate tags and improve search results.
@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "DigiAdz","AppTracker","HyprMX","IronSourceSDK","FyberSDK/**/*.{h,a,png,xib}"
+  s.source_files  = "DigiAdz","AppTracker","HyprMX","IronSourceSDK","DigiAdz/FyberSDK/**/*.{h,a,png,xib,modulemap}"
   s.exclude_files = "Classes/Exclude"
   s.vendored_frameworks = 'DigiAdz/DigiAdz.framework','AppTracker/AppTracker.framework','HyprMX/HyprMX.framework','IronSourceSDK/IronSource.framework'
 
