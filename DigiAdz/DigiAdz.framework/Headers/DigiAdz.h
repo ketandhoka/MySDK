@@ -19,11 +19,11 @@ FOUNDATION_EXPORT const unsigned char DigiAdzVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <DigiAdz/PublicHeader.h>
 
 //#import <AdColony/AdColony.h>
-#import <VungleSDK/VungleSDK.h>
-#import <AppTracker/AppTracker.h>
-#import <IronSource/IronSource.h>
-#import <Chartboost/Chartboost.h>
-#import <FyberSDK/FyberSDK.h>
+//#import <VungleSDK/VungleSDK.h>
+//#import <AppTracker/AppTracker.h>
+//#import <IronSource/IronSource.h>
+//#import <Chartboost/Chartboost.h>
+//#import <FyberSDK/FyberSDK.h>
 
 
 
