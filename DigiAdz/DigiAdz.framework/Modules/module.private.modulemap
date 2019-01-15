@@ -6,5 +6,4 @@ module DigiAdzPrivate {
     export AppTracker
     export UnityAds
     export Fyber
-
 }
