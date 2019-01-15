@@ -1,0 +1,6 @@
+module IronSource {
+    header "IronSource.framework/Versions/A/Headers/IronSource.h"
+    export *
+}
+
+

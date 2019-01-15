@@ -1,0 +1,6 @@
+module FyberSDK {
+    header "FyberSDK/FyberSDK.h"
+    export *
+}
+
+

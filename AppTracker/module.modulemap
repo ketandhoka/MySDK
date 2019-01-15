@@ -1,0 +1,5 @@
+module AppTracker {
+    header "AppTracker.framework/Versions/A/Headers/AppTracker.h"
+    export *
+}
+

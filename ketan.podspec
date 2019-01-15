@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ketan"
-  s.version      = "1.0.12"
+  s.version      = "1.0.28"
   s.summary      = "A short description."
 
   # This description is used to generate tags and improve search results.
@@ -92,11 +92,12 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "DigiAdz"
+  s.source_files  = "DigiAdz","AppTracker","HyprMX","IronSourceSDK"
   s.exclude_files = "Classes/Exclude"
-  s.vendored_frameworks = 'DigiAdz/DigiAdz.framework'
+  s.vendored_frameworks = 'DigiAdz/DigiAdz.framework','AppTracker/AppTracker.framework','HyprMX/HyprMX.framework','IronSourceSDK/IronSource.framework'
 
- # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+
+  # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  If your library depends on compiler flags you can set them in the xcconfig hash
   #  where they will only apply to your library. If you depend on other Podspecs
@@ -106,9 +107,15 @@ Pod::Spec.new do |s|
    s.static_framework = true
 
     s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/Headers/DigiAdz.h" }
-    s.dependency "InMobiSDK"
+    s.dependency "AdColony"
     s.dependency "Google-Mobile-Ads-SDK"
-  # s.dependency "UnityAds"
-   s.dependency "AdColony"
+    s.dependency 'AppLovinSDK'
+    s.dependency "ChartboostSDK"
+    s.dependency 'FBAudienceNetwork'
+   #s.dependency  "FyberSDK"
+    s.dependency "InMobiSDK"
+    #s.dependency "IronSourceSDK"
+    s.dependency "UnityAds"
+    s.dependency "VungleSDK-iOS"
 
 end
