@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ketan"
-  s.version      = "1.0.30"
+  s.version      = "1.0.31"
   s.summary      = "A short description."
 
   # This description is used to generate tags and improve search results.
