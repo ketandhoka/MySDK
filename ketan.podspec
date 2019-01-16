@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
   #  giving a folder will include any swift, h, m, mm, c & cpp files.
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
-  #
+  #  commented Fyber in this SDK
 
   s.source_files  = "DigiAdz","AppTracker","HyprMX","IronSourceSDK"
   s.exclude_files = "Classes/Exclude"
